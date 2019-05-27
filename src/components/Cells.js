@@ -1,13 +1,10 @@
 import React from "react";
 import Circle from "./Circle";
 
-const Cells = props => {
+const Cells = ({ row, col, cell, onClickHandler }) => {
   return (
-    <div
-      className="squareGrid"
-      onClick={() => props.onClickHandler(props.row, props.col)}
-    >
-      <Circle cell={props.cell} />
+    <div className="squareGrid" onClick={() => onClickHandler(row, col)}>
+      <Circle cell={cell} />
     </div>
   );
 };

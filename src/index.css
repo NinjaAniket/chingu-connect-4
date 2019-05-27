@@ -10,7 +10,7 @@ body {
 
 .status {
   font-size: 20px;
-  background:linear-gradient(to right, #005c97, #363795);
+  background:linear-gradient(to right, #005c97, hsl(239, 47%, 40%));
   color: #fff; 
   display: inline-block;
   font-weight: bold;
@@ -75,15 +75,9 @@ border-radius: 20px;
 
 
 
-@keyframes add-coin {
-  from {transform: translateY(-500px);}
-  to {transform: translateY(0px);
-  }
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 669px){
-
-
   .squareGrid {
     padding: 5px;
     font-size: 2em;
@@ -114,12 +108,8 @@ border-radius: 20px;
     width: 10rem; }
 
 }
-background: #a8c0ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 @media screen and (min-width: 360px) and (max-width: 640px){
-  /* styles */
 
   .squareGrid {
     padding: 4px;
@@ -132,16 +122,12 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px){
-
-
-
   .squareGrid {
     padding: 3px;
     font-size: 2em;
     text-align: center;
     cursor: pointer;
     width: 2rem;
-    height: 2rem;
-    
+    height: 2rem;   
   }
 }
