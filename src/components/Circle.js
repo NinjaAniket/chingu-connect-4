@@ -1,19 +1,29 @@
 import React from "react";
+import styled, { keyframes } from "styled-components";
 
-const Circle = props => {
-  var color = "white";
-  if (props.cell == 1) {
-    color = "black";
-  } else if (props.cell == 2) {
-    color = "red";
+const Circle = ({ cell }) => {
+  let color = "#182C61";
+  if (cell === 1) {
+    color = "#f46b45";
+  } else if (cell === 2) {
+    color = "#00d2d3";
   }
+  const addCoin = keyframes`
+      from {transform: translateY(-500px);}
+  to {transform: translateY(0px);
+  }`;
+
+  const Bar = styled.div`
+    animation: ${addCoin} 0.3s;
+    animation-iteration-count: 1;
+    border: 6px solid black;
+  `;
+
   var style = {
-    backgroundColor: color,
-    border: "1px solid black",
-    borderRadius: "100%",
-    paddingTop: "98%"
+    backgroundColor: color
   };
-  return <div style={style} />;
+
+  return <div className="circle" style={style} />;
 };
 
 export default Circle;
