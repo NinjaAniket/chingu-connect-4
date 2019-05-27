@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/connect-4/static/css/main.65103bf0.chunk.css",
-    "main.js": "/connect-4/static/js/main.0ed21aea.chunk.js",
-    "main.js.map": "/connect-4/static/js/main.0ed21aea.chunk.js.map",
-    "runtime~main.js": "/connect-4/static/js/runtime~main.308217db.js",
-    "runtime~main.js.map": "/connect-4/static/js/runtime~main.308217db.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/connect-4/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/connect-4/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "/connect-4/index.html",
-    "precache-manifest.e0723c98fd4bdf3e7f6c32ee847f301b.js": "/connect-4/precache-manifest.e0723c98fd4bdf3e7f6c32ee847f301b.js",
-    "service-worker.js": "/connect-4/service-worker.js",
-    "static/css/main.65103bf0.chunk.css.map": "/connect-4/static/css/main.65103bf0.chunk.css.map"
+    "main.css": "/chingu-connect-4/static/css/main.65103bf0.chunk.css",
+    "main.js": "/chingu-connect-4/static/js/main.83ecf7f6.chunk.js",
+    "main.js.map": "/chingu-connect-4/static/js/main.83ecf7f6.chunk.js.map",
+    "runtime~main.js": "/chingu-connect-4/static/js/runtime~main.108e1fcf.js",
+    "runtime~main.js.map": "/chingu-connect-4/static/js/runtime~main.108e1fcf.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/chingu-connect-4/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/chingu-connect-4/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/chingu-connect-4/index.html",
+    "precache-manifest.fae9883b6fd6608845652f75c4a69b97.js": "/chingu-connect-4/precache-manifest.fae9883b6fd6608845652f75c4a69b97.js",
+    "service-worker.js": "/chingu-connect-4/service-worker.js",
+    "static/css/main.65103bf0.chunk.css.map": "/chingu-connect-4/static/css/main.65103bf0.chunk.css.map"
   }
 }
