@@ -190,9 +190,9 @@ export default class Board extends Component {
     let status = "";
     if (this.state.winner > 0) {
       if (this.state.winner === 1) {
-        status = <p>Hurray! Player 2 wins</p>;
-      } else {
         status = <p>Hurray! Player 1 wins</p>;
+      } else {
+        status = <p>Hurray! Player 2 wins</p>;
       }
     } else if (this.state.player) {
       status = <p>Player 2's Turn</p>;
